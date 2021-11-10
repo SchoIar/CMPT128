@@ -1,0 +1,10 @@
+HOW TO USE makefile
+cd [Current directory]
+make
+./h
+
+td:	testDriver.o intarr.o 
+	gcc -o td testDriver.c intarr.c 
+
+clean:	
+	rm -f td *.o
