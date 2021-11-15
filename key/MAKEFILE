@@ -9,3 +9,6 @@ $cd [directory name]
 $make fractal
 $./fractal
 
+$cd 
+$make 
+$./td Hadfield.png
