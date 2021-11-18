@@ -38,10 +38,18 @@ intarr_t* intarr_create( unsigned int len )
 // nothing. If the ia->data is null, do not attempt to free it.
 void intarr_destroy( intarr_t* ia )
 {
-    if (ia != NULL)
-    {
-        free(ia);
-    }
+   	if (ia == NULL)
+	{
+		if (ia->data != NULL)
+		{
+			free(ia->data);
+		}
+	}
+ 
+	else if(ia != NULL)
+	{
+		free(ia);
+	}
 }
 
 /* LAB 5 TASK 2 */
