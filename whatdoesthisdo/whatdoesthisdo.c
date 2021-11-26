@@ -44,6 +44,13 @@ int main(void)
 
 */
   
+/*
+
+A structure is also a type. The name of this type is the name of the structure. A structure is a collection of variables, an excellent way to group the variables and organize data.
+Let us write a simple example that declares a structure with three members:
+
+*/
+  
       
       
       
