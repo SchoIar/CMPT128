@@ -57,11 +57,13 @@ void loop(){
     delay(1000);
     lcd.clear();
   }
+  
   if(whichKey == password [pozisyon]){
-
     pozisyon ++;
   }
-  if(pozisyon == 4){
+  
+  if(pozisyon == 4)
+  {
     setLocked (false);
     lcd.clear();
     lcd.setCursor(0, 0);
@@ -79,15 +81,21 @@ void loop(){
 }
 
 void setLocked(int locked){
+  
   if(locked){
+    
     digitalWrite(redLED, HIGH);
     digitalWrite(greenLED, LOW);
     }
+  
     else{
+      
       digitalWrite(redLED, LOW);
       digitalWrite(greenLED, HIGH);
     }
+  
   }
+
 
 
 
