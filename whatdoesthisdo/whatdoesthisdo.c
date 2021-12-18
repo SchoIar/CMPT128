@@ -70,5 +70,25 @@ int main(void)
 */
   
       
-      
+/*
+#include <stdio.h>
+
+int main(void)
+{
+
+    char *p = "Hello";
+    printf("%c", *p);
+//PRINTS OUT JUST H
+
+      char* x = "Hello World!";
+      printf("%s", x);
+//PRINTS OUT ALL 
+
+  
+}
+
+
+
+
+*/
       
