@@ -1,0 +1,6 @@
+What is big o notation:
+Time efficiency/complexity; demonstrates how functions scale as input gets larger and larger. During this we ignore constants (just focus on X amounts of inputs)
+ie. X+100 -> Time efficiency: o(x): Linear
+ie. 10000 -> Time efficiency: o(1): Constant
+
+Ressources: https://www.youtube.com/watch?v=D6xkbGLQesk
